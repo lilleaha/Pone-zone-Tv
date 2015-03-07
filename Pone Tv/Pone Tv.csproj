@@ -58,6 +58,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pone-tv.Master" />
+    <Content Include="TopGams.aspx" />
+    <Content Include="TopGamers.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Sign up.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -85,6 +89,34 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TopGams.aspx.cs">
+      <DependentUpon>TopGams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TopGams.aspx.designer.cs">
+      <DependentUpon>TopGams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TopGamers.aspx.cs">
+      <DependentUpon>TopGamers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TopGamers.aspx.designer.cs">
+      <DependentUpon>TopGamers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign up.aspx.cs">
+      <DependentUpon>Sign up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign up.aspx.designer.cs">
+      <DependentUpon>Sign up.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

@@ -14,17 +14,30 @@
 </head>
 
     <nav>
-        <a href="Default.aspx"> Pone Tv </a>
-        <a href=""></a>
-        <a href=""></a>
-        
+        <ul>
+        <a href="Default.aspx" class="nav">Pone Zone</a>
+        <a href="TopGams.aspx" class="nav">Top Gams</a>
+        <a href="TopGamers.aspx" class="nav">Top Gamers</a>
+        <a href="Login.aspx" class="nav">Login</a>
+        <a id="sign-up" href="Sign up.aspx">Sign up</a>
+        <%--<asp:textbox class="nav" runat="server">Search</asp:textbox>--%>  
+        </ul>         
     </nav>
+    
     <form id="form1" runat="server">
     <div>
 
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
     </div>
     </form>
+    <fotter>
+        <div>
+            <h6>Pone Zone.Tv </h6><h6>Chontat Mail <a href="Chontat@ponetv.com">Chontat@ponetv.com</a> </h6>
+        </div>
+    </fotter>
 </body>
 </html>
