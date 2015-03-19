@@ -69,6 +69,7 @@
     <Content Include="Profile.aspx" />
     <Content Include="my-subscribers.aspx" />
     <Content Include="all-my-data.aspx" />
+    <Content Include="Upload.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -145,6 +146,13 @@
     </Compile>
     <Compile Include="all-my-data.aspx.designer.cs">
       <DependentUpon>all-my-data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm9.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm9.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
