@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\pone-zone.mdf" />
+    <Content Include="App_Data\pone-zone_log.ldf">
+      <DependentUpon>pone-zone.mdf</DependentUpon>
+    </Content>
     <Content Include="pone-tv.Master" />
     <Content Include="TopGams.aspx" />
     <Content Include="TopGamers.aspx" />
@@ -119,6 +123,7 @@
       <DependentUpon>Sign up.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
