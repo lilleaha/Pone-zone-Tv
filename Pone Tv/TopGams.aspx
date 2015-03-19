@@ -5,6 +5,24 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+   <h1>top games </h1>
+   <div id="contentbox" >  
+    <div class="gamers-gamsbox">
+    <img src="gams-img/battlefield-4.jpg" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="gams-img/2med.jpg" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="gams-img/battlefield-4.jpg" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="gams-img/2med.jpg" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="gams-img/battlefield-4.jpg" />
+</div>
+ </div>
    <h1>First Person Shooter</h1> 
    <div id="contentbox" >  
     <div class="gamers-gamsbox">

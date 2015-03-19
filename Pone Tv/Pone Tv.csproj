@@ -66,6 +66,9 @@
     <Content Include="TopGamers.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Sign up.aspx" />
+    <Content Include="Profile.aspx" />
+    <Content Include="my-subscribers.aspx" />
+    <Content Include="all-my-data.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -121,6 +124,27 @@
     </Compile>
     <Compile Include="Sign up.aspx.designer.cs">
       <DependentUpon>Sign up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my-subscribers.aspx.cs">
+      <DependentUpon>my-subscribers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="my-subscribers.aspx.designer.cs">
+      <DependentUpon>my-subscribers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="all-my-data.aspx.cs">
+      <DependentUpon>all-my-data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="all-my-data.aspx.designer.cs">
+      <DependentUpon>all-my-data.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

@@ -2,6 +2,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h1>Top Gamers</h1>
+       <div id="contentbox" >  
+    <div class="gamers-gamsbox">
+    <img src="gamers-img/profilbillede.jpg" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="#" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="#" />
+</div>
+    <div class="gamers-gamsbox">
+    <img src="#" />
+</div>
+        <div class="gamers-gamsbox">
+    <img src="#" />
+</div>
+</div
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
