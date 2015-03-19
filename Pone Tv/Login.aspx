@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="sign-up-box" >
     <h1>Logind</h1>
-    <h2>Brugernavn </h2>
+    <h2>Username </h2>
     <asp:textbox runat="server"></asp:textbox>
     <h2>Password </h2>
     <asp:textbox runat="server"></asp:textbox>
