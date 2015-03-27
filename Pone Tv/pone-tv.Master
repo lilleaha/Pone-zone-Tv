@@ -6,7 +6,8 @@
 <head runat="server">
     <title>Pone Tv</title>
     <link href="master.css" rel="stylesheet" />
-
+    <link rel="stylesheet" type="text/css" href="master.css" media="screen, handheld" />
+    <link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
