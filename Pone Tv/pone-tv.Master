@@ -6,27 +6,51 @@
 <head runat="server">
     <title>Pone Tv</title>
     <link href="master.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="master.css" media="screen, handheld" />
-    <link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" />
+    <link href="js-css/master.css" rel="stylesheet" />
+    <script src="js-css/popup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
+    
 <body>
 </head>
 
     <nav>
         <ul>
-        <a href="Default.aspx" class="nav">Pone Zone</a>
+        <a href="Default.aspx" class="nav">PWN Zone</a>
         <a href="TopGams.aspx" class="nav">Top Gams</a>
         <a href="TopGamers.aspx" class="nav">Top Gamers</a>
-        <a href="Login.aspx" class="nav">Login</a>
-        <a id="sign-up" href="Sign up.aspx">Sign up</a>
-        <%--<asp:textbox class="nav" runat="server" text="Search"></asp:textbox> --%> 
+        <div id="wrapper">
+        <a href="javascript:void(0)" onclick="toggle_visibility('LogindPopup');"class="nav">Logind</a>
+        </div>
+        <a href="Upload.aspx" class="nav">Upload</a>
+        <input placeholder="Search" type="text" />
         </ul>         
     </nav>
     
     <form id="form1" runat="server">
     <div id="contentbox" >
+        <div id="LogindPopup"class="popup">>
+			<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+                    <div id="kryds-bar"
+				        <a href="javascript:void(0)" onclick="toggle_visibility('LogindPopup');"><img src="master%20img/kryds.png" id="kryds"/></a>
+                    </div>
+                        <div id="sign-up-box" >
+                           <h1>Logind</h1>
+                           <h2>Email </h2> 
+                           <asp:textbox runat="server" placeholder="Email@Pwnzone.tv"></asp:textbox>
+                           <h2>Password </h2>
+                           <asp:textbox runat="server" placeholder="Password"></asp:textbox><a href=""><p>Lost your password</p></a>
+                           <input type="button" href="javascript:void(0)" onclick="toggle_visibility('LogindPopup');"/>
+                           <input type="button"href="Sign%20up.aspx" />
+                           <asp:button runat="server" text="Logind" />
+                           
+                       </div>
+				</div>
+			</div>
+		</div>
+        </div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">

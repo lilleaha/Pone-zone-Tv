@@ -14,7 +14,7 @@ namespace Pone_Tv
     {
         public WebForm5()
         {
-            Initializecomponent()
+
         }
         protected void Page_Load(object sender, EventArgs e)
         {

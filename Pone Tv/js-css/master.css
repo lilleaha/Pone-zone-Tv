@@ -14,38 +14,18 @@ nav{
     border-radius:5px;
     margin: 0 auto ; 
 }
+ul{
+    margin: 0 auto;
+}
 /*Menupunkterne*/
 .nav{
     background-color:#181818;
     color:#4cff00;
     font-family:;
-    font-size:150%;
+    font-size:140%;
     float:left;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-/*Der en sign up knap nomal*/
-#sign-up{
-    background-color:#4cff00;
-    color:#181818;
-    font-family:;
-    font-size:150%;
-    float:left;
-    border-radius:5px;
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-/*Der en sign up knap hover*/
-#sign-up:hover{
-    background-color:#181818;
-    color:#4cff00;
-    font-family:;
-    font-size:150%;
-    float:left;
-    border-radius:5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 2%;
 }
 #contentbox{
    width:85%;
@@ -63,9 +43,9 @@ h1{
 
 }
 .gamers-gamsbox{
-    width:12%;
+    width:8%;
     float:left;
-    margin:5% 3% 0 3%;
+    margin:5% 1% 0 1%;
     border-radius:5px;
 
 
@@ -77,8 +57,9 @@ img{
     float:left;
 
 }
+
 #sign-up-box{
-   width:15%;
+   width:25%;
    margin: 0 auto ;
    display:block;
    padding-top:3%;
@@ -120,4 +101,35 @@ p{
     color:#;
     font-family:;
     float:left;
+}
+.popup{
+    top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+}
+			.popupBoxWrapper{
+				width: 70%; margin: 10% auto; text-align: left; 
+			}
+			.popupBoxContent{
+				background-color: #4a4a4a; 
+                border-radius: 20px;
+			}
+
+#kryds-bar{
+    width:100%;
+    margin-top:10px;
+
+}
+#kryds{
+    width:3%;
+    height:3%;
+    float:right;
+    margin-right:10px;
+    margin-top:10px;
+    
+}
+.main {
+	width: 80%;
+	padding: 0 10px;
+	margin: 0 auto;
+	position: relative;
 }

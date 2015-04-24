@@ -69,32 +69,15 @@
     <Content Include="App_Data\pone-zone_log.ldf">
       <DependentUpon>pone-zone.mdf</DependentUpon>
     </Content>
+    <Content Include="master img\kryds.png" />
     <Content Include="pone-tv.Master" />
+    <Content Include="js-css\popup.js" />
     <Content Include="TopGams.aspx" />
     <Content Include="TopGamers.aspx" />
-    <Content Include="Login.aspx" />
     <Content Include="Sign up.aspx" />
     <Content Include="Profile.aspx" />
-    <Content Include="my-subscribers.aspx" />
     <Content Include="all-my-data.aspx" />
     <Content Include="Upload.aspx" />
-    <EntityDeploy Include="App_Code\Model1.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="App_Code\Model1.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="App_Code\Model1.edmx.diagram">
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Content>
-    <Content Include="App_Code\Model1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Model1.edmx</DependentUpon>
-      <LastGenOutput>Model1.cs</LastGenOutput>
-    </Content>
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -104,29 +87,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="master.css" />
+    <Content Include="js-css\master.css" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\Model1.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.Context.tt</DependentUpon>
-    </Content>
-    <Content Include="App_Code\Model1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Content>
-    <Content Include="App_Code\Model1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Model1.edmx</DependentUpon>
-    </Content>
-    <Content Include="App_Code\Table.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Content>
     <Compile Include="pone-tv.Master.cs">
       <DependentUpon>pone-tv.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,13 +121,6 @@
     <Compile Include="TopGamers.aspx.designer.cs">
       <DependentUpon>TopGamers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Sign up.aspx.cs">
       <DependentUpon>Sign up.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,13 +134,6 @@
     </Compile>
     <Compile Include="Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="my-subscribers.aspx.cs">
-      <DependentUpon>my-subscribers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="my-subscribers.aspx.designer.cs">
-      <DependentUpon>my-subscribers.aspx</DependentUpon>
     </Compile>
     <Compile Include="all-my-data.aspx.cs">
       <DependentUpon>all-my-data.aspx</DependentUpon>
@@ -199,7 +150,9 @@
       <DependentUpon>Upload.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+  </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
